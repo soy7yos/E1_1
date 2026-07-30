@@ -124,4 +124,38 @@ drwxr-xr-x   3 sysy22042026  sysy22042026    96  7 30 15:46 practice
 [7mmv step_2_docker_setup_log logs/[27m[K[A[27mm[27mv[27m [27ml[27mo[27mg[27m_[27ms[27mt[27me[27mp[27m1[27m.[27mt[27mx[27mt[27m [27ml[27mo[27mg[27ms[27m/[1B[27mm[27mv[27m [27ms[27mt[27me[27mp[27m_[27m2[27m_[27md[27mo[27mc[27mk[27me[27mr[27m_[27ms[27me[27mt[27mu[27mp[27m_[27ml[27mo[27mg[27m [27ml[27mo[27mg[27ms[27m/[?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mls logs/[27m[8D[27ml[27ms[27m [27ml[27mo[27mg[27ms[27m/[?2004l
 log_step1.txt		step_2_docker_setup_log
-[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mgit add .[27m
+[7mgit commit -m "docs: update readme steps and organize logs folder"[27m[K
+[7mgit push[27m[K[A[A[19C[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27m.[1B[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27md[27mo[27mc[27ms[27m:[27m [27mu[27mp[27md[27ma[27mt[27me[27m [27mr[27me[27ma[27md[27mm[27me[27m [27ms[27mt[27me[27mp[27ms[27m [27ma[27mn[27md[27m [27mo[27mr[27mg[27ma[27mn[27mi[27mz[27me[27m [27ml[27mo[27mg[27ms[27m [27mf[27mo[27ml[27md[27me[27mr[27m"[1B[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[?2004l
+[main 759cfc0] docs: update readme steps and organize logs folder
+ 8 files changed, 316 insertions(+), 7 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 Project_notes
+ rename log_step1.txt => logs/log_step1.txt (100%)
+ create mode 100644 logs/step_2_docker_setup_log
+ create mode 100644 mission
+ create mode 100644 practice/test.txt
+오브젝트 나열하는 중: 14, 완료.
+오브젝트 개수 세는 중:   7% (1/14)오브젝트 개수 세는 중:  14% (2/14)오브젝트 개수 세는 중:  21% (3/14)오브젝트 개수 세는 중:  28% (4/14)오브젝트 개수 세는 중:  35% (5/14)오브젝트 개수 세는 중:  42% (6/14)오브젝트 개수 세는 중:  50% (7/14)오브젝트 개수 세는 중:  57% (8/14)오브젝트 개수 세는 중:  64% (9/14)오브젝트 개수 세는 중:  71% (10/14)오브젝트 개수 세는 중:  78% (11/14)오브젝트 개수 세는 중:  85% (12/14)오브젝트 개수 세는 중:  92% (13/14)오브젝트 개수 세는 중: 100% (14/14)오브젝트 개수 세는 중: 100% (14/14), 완료.
+Delta compression using up to 6 threads
+오브젝트 압축하는 중:  12% (1/8)오브젝트 압축하는 중:  25% (2/8)오브젝트 압축하는 중:  37% (3/8)오브젝트 압축하는 중:  50% (4/8)오브젝트 압축하는 중:  62% (5/8)오브젝트 압축하는 중:  75% (6/8)오브젝트 압축하는 중:  87% (7/8)오브젝트 압축하는 중: 100% (8/8)오브젝트 압축하는 중: 100% (8/8), 완료.
+오브젝트 쓰는 중:   9% (1/11)오브젝트 쓰는 중:  18% (2/11)오브젝트 쓰는 중:  27% (3/11)오브젝트 쓰는 중:  36% (4/11)오브젝트 쓰는 중:  45% (5/11)오브젝트 쓰는 중:  54% (6/11)오브젝트 쓰는 중:  63% (7/11)오브젝트 쓰는 중:  72% (8/11)오브젝트 쓰는 중:  81% (9/11)오브젝트 쓰는 중:  90% (10/11)오브젝트 쓰는 중: 100% (11/11)오브젝트 쓰는 중: 100% (11/11), 7.30 KiB | 7.30 MiB/s, 완료.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/soy7yos/b_m1.git
+   5d565d9..759cfc0  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mecho $SHLVL   # 셸 중첩 레벨 확인 (script 안이면 보통 2 이상)[27m[61D[27me[27mc[27mh[27mo[27m [27m$[27mS[27mH[27mL[27mV[27mL[27m [27m [27m [27m#[27m [27m셸[27m[27m [27m중[27m[27m첩[27m[27m [27m레[27m[27m벨[27m[27m [27m확[27m[27m인[27m[27m [27m([27ms[27mc[27mr[27mi[27mp[27mt[27m [27m안[27m[27m이[27m[27m면[27m[27m [27m보[27m[27m통[27m[27m [27m2[27m [27m이[27m[27m상[27m[27m)[?2004l
+zsh: number expected
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mps -p $PPID   # 부모 프로세스 확인 → "script"가 보이면 로깅 중[27m[7m[27m[62D[27mp[27ms[27m [27m-[27mp[27m [27m$[27mP[27mP[27mI[27mD[27m [27m [27m [27m#[27m [27m부[27m[27m모[27m[27m [27m프[27m[27m로[27m[27m세[27m[27m스[27m[27m [27m확[27m[27m인[27m[27m [27m→[27m [27m"[27ms[27mc[27mr[27mi[27mp[27mt[27m"[27m가[27m[27m [27m보[27m[27m이[27m[27m면[27m[27m [27m로[27m[27m깅[27m[27m [27m중[27m[?2004l
+ps: illegal argument: #
+usage: ps [-AaCcEefhjlMmrSTvwXx] [-O fmt | -o fmt] [-G gid[,gid...]]
+          [-g grp[,grp...]] [-u [uid,uid...]]
+          [-p pid[,pid...]] [-t tty[,tty...]] [-U user[,user...]]
+       ps [-L]
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mecho $SHLVL[27m[11D[27me[27mc[27mh[27mo[27m [27m$[27mS[27mH[27mL[27mV[27mL[?2004l
+4
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mps -p $PPID[27m[11D[27mp[27ms[27m [27m-[27mp[27m [27m$[27mP[27mP[27mI[27mD[?2004l
+  PID TTY           TIME CMD
+14895 ttys001    0:00.01 script step_2_docker_setup_log
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004h[7mexit[27m[27me[27mx[27mi[27mt[?2004l
+
+Script done on Thu Jul 30 17:00:34 2026
