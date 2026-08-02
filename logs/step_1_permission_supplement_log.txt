@@ -1,0 +1,24 @@
+[1m[7m%[27m[1m[0m                                                                                                                                       [0m[27m[24m[J[34m❯[39m [33mlogs[39m [K[?2004h[7m# script 세션 안에서 실행[27m
+[7mcd ~/b_m1/practice[27m[K
+[7mmkdir perm_test_dir[27m[K
+[7mls -ld perm_test_dir          # 변경 전 권한 확인[27m[K
+[7mchmod 700 perm_test_dir[27m[K
+[7mls -ld perm_test_dir          # 변경 후 확인 (700 = 소유자만 rwx)[27m[K
+[7mchmod 755 perm_test_dir       # 필요 시 복구[27m[K
+[7mls -ld perm_test_dir[27m[K
+[7mexit                          # script 세션 종료[27m[7m[27m[K[8A[41D[27m#[27m [27ms[27mc[27mr[27mi[27mp[27mt[27m [27m세[27m[27m션[27m[27m [27m안[27m[27m에[27m[27m서[27m[27m [27m실[27m[27m행[27m[1B[27mc[27md[27m [27m~[27m/[27mb[27m_[27mm[27m1[27m/[27mp[27mr[27ma[27mc[27mt[27mi[27mc[27me[1B[27mm[27mk[27md[27mi[27mr[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[1B[27ml[27ms[27m [27m-[27ml[27md[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[29P[10C# 변경 전 권한 확인[57C[K[1B[27mc[27mh[27mm[27mo[27md[27m [27m7[27m0[27m0[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[1B[27ml[27ms[27m [27m-[27ml[27md[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[45P[10C# 변경 후 확인 (700 = 소유자만 rwx)[25C[K[1B[27mc[27mh[27mm[27mo[27md[27m [27m7[27m5[27m5[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[27m [27m [27m [27m [27m [27m [27m [27m#[27m [27m필[27m[27m요[27m[27m [27m시[27m[27m [27m복[27m[27m구[27m[1B[27ml[27ms[27m [27m-[27ml[27md[27m [27mp[27me[27mr[27mm[27m_[27mt[27me[27ms[27mt[27m_[27md[27mi[27mr[1B[27me[27mx[27mi[27mt[44P[26C# script 세션 종료[43C[K[43D[?2004l
+zsh: command not found: #
+ls: #: No such file or directory
+ls: 권한: No such file or directory
+ls: 변경: No such file or directory
+ls: 전: No such file or directory
+ls: 확인: No such file or directory
+drwxr-xr-x  2 sysy22042026  sysy22042026  64  8  2 14:46 [34mperm_test_dir[39;49m[0m
+zsh: unknown file attribute: 7
+chmod: #: No such file or directory
+chmod: 필요: No such file or directory
+chmod: 시: No such file or directory
+chmod: 복구: No such file or directory
+drwxr-xr-x  2 sysy22042026  sysy22042026  64  8  2 14:46 [34mperm_test_dir[39;49m[0m
+exit: too many arguments
+[1m[7m%[27m[1m[0m                                                                                                                                       [0m[27m[24m[J[34m❯[39m [33mpractice[39m [K[?2004h
