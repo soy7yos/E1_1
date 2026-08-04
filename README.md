@@ -51,8 +51,8 @@
 | 바인드 마운트 | `docker run -v $(pwd)/...:/data`, `docker exec` | [step_5_bind_mount_volume_log.txt](logs/step_5_bind_mount_volume_log.txt) |
 | 볼륨 영속성 | `docker volume create`, `docker rm -f` 전/후 비교 | [step_5_bind_mount_volume_log.txt](logs/step_5_bind_mount_volume_log.txt) |
 | Git 설정/연동 | `git config --list`, `git remote -v` | [step_6_git_github_config_log.txt](logs/step_6_git_github_config_log.txt) |
-| 포트 매핑 브라우저 접속 화면 | 주소창(`localhost:8080`) + 응답 화면 캡처 | [이미지](https://drive.google.com/uc?export=view&id=17PzspWNBcgtf2_4ZA0RgqlAb6T95UthU) ([원본 링크](https://drive.google.com/file/d/17PzspWNBcgtf2_4ZA0RgqlAb6T95UthU/view?usp=sharing)) |
-| VSCode GitHub 연동 화면 | 브랜치명/동기화 아이콘 캡처 | [이미지](https://drive.google.com/uc?export=view&id=1eFjNgQ2b0OKaakit9ErGz9ExvfSvyxRM) ([원본 링크](https://drive.google.com/file/d/1eFjNgQ2b0OKaakit9ErGz9ExvfSvyxRM/view?usp=sharing)) |
+| 포트 매핑 브라우저 접속 화면 | 주소창(`localhost:8080`) + 응답 화면 캡처 | [port_mapping_curl.png](docs/screenshots/port_mapping_curl.png) |
+| VSCode GitHub 연동 화면 | 브랜치명/동기화 아이콘 캡처 | [vscode_github_sync.png](docs/screenshots/vscode_github_sync.png) |
 
 ## 5. 수행 로그 (발췌)
 
@@ -148,8 +148,7 @@ Everything up-to-date
 ```
 
 **VSCode GitHub 연동 화면**
-![VSCode GitHub 연동 화면](https://drive.google.com/uc?export=view&id=1eFjNgQ2b0OKaakit9ErGz9ExvfSvyxRM)
-> 위 이미지가 렌더링되지 않을 경우 [원본 링크](https://drive.google.com/file/d/1eFjNgQ2b0OKaakit9ErGz9ExvfSvyxRM/view?usp=sharing)로 확인.
+![VSCode GitHub 연동 화면](docs/screenshots/vscode_github_sync.png)
 
 ## 6. Dockerfile 기반 커스텀 이미지
 **선택 베이스**: `nginx:alpine` (방식 A — 웹 서버 베이스 + 정적 콘텐츠/설정 교체)
@@ -171,8 +170,7 @@ COPY index.html /usr/share/nginx/html/index.html
 소스: `app/Dockerfile`, `app/index.html`
 
 **포트 매핑 접속 화면**
-![포트 매핑 접속 화면](https://drive.google.com/uc?export=view&id=17PzspWNBcgtf2_4ZA0RgqlAb6T95UthU)
-> 위 이미지가 렌더링되지 않을 경우 [원본 링크](https://drive.google.com/file/d/17PzspWNBcgtf2_4ZA0RgqlAb6T95UthU/view?usp=sharing)로 확인.
+![포트 매핑 접속 화면](docs/screenshots/port_mapping_curl.png)
 
 ## 7. 트러블슈팅
 
