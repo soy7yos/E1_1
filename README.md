@@ -15,8 +15,6 @@
 | Docker | 28.5.2 (`docker --version` → `Docker version 28.5.2, build ecc6942`) |
 | Git | 2.53.0 (`git --version` → `git version 2.53.0`) |
 
-> ⚠️ OrbStack 미사용 환경에서는 `docker` 명령이 동일하게 동작하지 않을 수 있음 — Docker Desktop 등 자체 데몬 설치로 대체 가능.
-
 > 📌 **디렉토리/저장소명 변경 이력**: 6단계(Git/GitHub 연동) 진입 전 로컬 디렉토리명 및 GitHub 저장소명을 `b_m1` → `E1_1`으로 변경함. 1~5단계 로그의 터미널 프롬프트·경로에는 이전 이름(`b_m1`)이, 6단계 로그부터는 변경된 이름(`E1_1`)이 표시되나 동일 프로젝트의 연속 기록임.
 
 ## 3. 수행 체크리스트
@@ -32,9 +30,6 @@
 - [x] 볼륨 영속성 검증 (컨테이너 삭제 후 데이터 유지)
 - [x] Git 사용자 설정 및 GitHub/VSCode 연동
 - [x] 보안 점검 (민감정보 마스킹) 및 README 최종 정리
-
-### 보너스 (미착수)
-- [ ] Compose 기초 / [ ] Compose 멀티 컨테이너 / [ ] Compose 운영 명령어 / [ ] 환경 변수 활용 / [ ] GitHub SSH 키 설정
 
 ## 4. 검증 방법
 | 항목 | 명령어 | 결과 위치 |
@@ -187,13 +182,6 @@ COPY index.html /usr/share/nginx/html/index.html
 - 확인: 로그상 에러 위치와 700 상태 `ls -ld` 출력 부재 대조
 - 해결: 1차로 명령을 주석 없이 한 줄씩 재실행하여 700 상태(`drwx------`) 캡처 완료. 재발 방지를 위해 `~/.zshrc`에 `setopt interactivecomments` 추가 후 반영 확인
 - (출처: [step_1_permission_supplement_log.txt](logs/step_1_permission_supplement_log.txt), [step_1_zshrc_supplement_log.txt](logs/step_1_zshrc_supplement_log.txt))
-
-### 7-3. Git 설정 로그 내 개인정보 미마스킹 노출
-- 문제: `step_6_git_github_config_log.txt`의 `git config --list` 출력 중 재실행 구간에서 사용자명·이메일이 마스킹 없이 그대로 노출됨 (최초 실행분은 마스킹됨)
-- 원인 가설: 동일 명령을 재확인 목적으로 두 번 실행하며 앞부분만 마스킹 처리, 뒤 구간 캡처 시 마스킹 누락
-- 확인: 로그 내 두 `git config --list` 출력 구간을 대조하여 마스킹 여부 상이함 확인
-- 해결: 원본 로그 내 미마스킹 텍스트 마스킹 처리 완료
-- (출처: [step_6_git_github_config_log.txt](logs/step_6_git_github_config_log.txt))
 
 ## 8. 재현 방법
 1. OrbStack(또는 Docker Desktop) 설치 및 실행
