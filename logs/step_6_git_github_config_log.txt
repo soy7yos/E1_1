@@ -1,94 +1,56 @@
-Script started on Tue Aug  4 12:45:32 2026
-]11;#FAFAFA[1m[7m%[27m[1m[0m                                                                                                                     
- 
-
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m config --global user.name[27m
-
-[7m[38;5;68mgit[39m[7m config --global user.email[27m[K[A[21D[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27mg[27ml[27mo[27mb[27ma[27ml[27m [27mu[27ms[27me[27mr[27m.[27mn[27ma[27mm[27me[1B
-[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27mg[27ml[27mo[27mb[27ma[27ml[27m [27mu[27ms[27me[27mr[27m.[27me[27mm[27ma[27mi[27ml[?2004l
-
+**git config --global user.name**
 **
+
+**git config --global user.email**
 ****os@gmail.com
-[1m[7m%[27m[1m[0m                                                                                                                     
- 
 
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m config --global init.defaultBranch[27m
-
-[7m[38;5;68mgit[39m[7m branch --show-current   [7m[38;5;245m# 현재 저장소 기준 브랜치명 확인[27m[39m[7m[38;5;245m[27m[39m[K[A[51D[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27mg[27ml[27mo[27mb[27ma[27ml[27m [27mi[27mn[27mi[27mt[27m.[27md[27me[27mf[27ma[27mu[27ml[27mt[27mB[27mr[27ma[27mn[27mc[27mh[1B
-[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27m-[27m-[27ms[27mh[27mo[27mw[27m-[27mc[27mu[27mr[27mr[27me[27mn[27mt[27m [27m [27m [27m[38;5;245m#[27m[38;5;245m [27m[38;5;245m현[27m[38;5;245m[27m[38;5;245m재[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m저[27m[38;5;245m[27m[38;5;245m장[27m[38;5;245m[27m[38;5;245m소[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m기[27m[38;5;245m[27m[38;5;245m준[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m브[27m[38;5;245m[27m[38;5;245m랜[27m[38;5;245m[27m[38;5;245m치[27m[38;5;245m[27m[38;5;245m명[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m확[27m[38;5;245m[27m[38;5;245m인[39m[27m[38;5;245m[39m[?2004l
-
+**git config --global init.defaultBranch**
+**git branch --show-current   # 현재 저장소 기준 브랜치명 확인**
 main
-[1m[7m%[27m[1m[0m                                                                                                                     
- 
 
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m config --list[27m[17D[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27ml[27mi[27ms[27mt[?2004l
+**git config --list**
+credential.helper=osxkeychain
+user.name=**
+user.email=****os@gmail.com
+credential.helper=osxkeychain
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+remote.origin.url=https://github.com/****os/E1_1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+branch.main.vscode-merge-base=origin/main
 
-[?1h=
-credential.helper=osxkeychain[m
-user.name=**[m
-user.email=****os@gmail.com[m
-credential.helper=osxkeychain[m
-core.repositoryformatversion=0[m
-core.filemode=true[m
-core.bare=false[m
-core.logallrefupdates=true[m
-core.ignorecase=true[m
-core.precomposeunicode=true[m
-remote.origin.url=https://github.com/****os/E1_1.git[m
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
-branch.main.remote=origin[m
-branch.main.merge=refs/heads/main[m
-branch.main.vscode-merge-base=origin/main[m
-
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                     
- 
-
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39[7m[38;5;68mcd[39m[7m [7m[4m~/E1_1[24m   [7m[38;5;245m# 또는 현재 작업 폴더[39m[7m[38;5;245m[39m[27m
-
-[7m[38;5;68mgit[39m[7m remote -v[27m[K[A[27m[38;5;68mc[27m[38;5;68md[39m[27m [27m[4m~[27m[4m/[27m[4mE[27m[4m1[27m[4m_[27m[4m1[24m[27m [27m [27m [27m[38;5;245m#[27m[38;5;245m [27m[38;5;245m또[27m[38;5;245m[27m[38;5;245m는[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m현[27m[38;5;245m[27m[38;5;245m재[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m작[27m[38;5;245m[27m[38;5;245m업[27m[38;5;245m[27m[38;5;245m [27m[38;5;245m폴[27m[38;5;245m[27m[38;5;245m더[39m[27m[38;5;245m[39m[1B
-[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27m-[27mv[?2004l
-
+**cd ~/E1_1   # 또는 현재 작업 폴더**
+**git remote -v**
 origin	https://github.com/****os/E1_1.git (fetch)
 origin	https://github.com/****os/E1_1.git (push)
-[1m[7m%[27m[1m[0m                                                                                                                     
- 
 
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m remote set-url origin https://github.com/****os/E1_1.git[27m
-
-[7m[38;5;68mgit[39m[7m remote -v[27m[K[A[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ms[27me[27mt[27m-[27mu[27mr[27ml[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27ms[27mo[27my[27m7[27my[27mo[27ms[27m/[27mE[27m1[27m_[27m1[27m.[27mg[27mi[27mt[1B
-[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27m-[27mv[?2004l
-
+**git remote set-url origin https://github.com/****os/E1_1.git**
+**git remote -v**
 origin	https://github.com/****os/E1_1.git (fetch)
 origin	https://github.com/****os/E1_1.git (push)
-[1m[7m%[27m[1m[0m                                                                                                                     
- 
 
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m push[27m[8D[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mp[27mu[27ms[27mh[?2004l
-
+**git push**
 Everything up-to-date
-[1m[7m%[27m[1m[0m                                                                                                                     
- 
-ß
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h[7m[38;5;68mgit[39m[7m config --list[27m[17D[27m[38;5;68mg[27m[38;5;68mi[27m[38;5;68mt[39m[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27ml[27mi[27ms[27mt[?2004l
 
-[?1h=
-credential.helper=osxkeychain[m
-user.name=**[m
-user.email=****os@gmail.com[m
-credential.helper=osxkeychain[m
-core.repositoryformatversion=0[m
-core.filemode=true[m
-core.bare=false[m
-core.logallrefupdates=true[m
-core.ignorecase=true[m
-core.precomposeunicode=true[m
-remote.origin.url=https://github.com/****os/E1_1.git[m
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
-branch.main.remote=origin[m
-branch.main.merge=refs/heads/main[m
-branch.main.vscode-merge-base=origin/main[m
-
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                     
- 
-
-[0m[27m[24m[J[1m[48;5;255m[38;5;235m ❯ E1_1 [49m[39m[0m [K[?2004h
+**git config --list**
+credential.helper=osxkeychain
+user.name=**
+user.email=****os@gmail.com
+credential.helper=osxkeychain
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+remote.origin.url=https://github.com/****os/E1_1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+branch.main.vscode-merge-base=origin/main

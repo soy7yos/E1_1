@@ -1,5 +1,7 @@
-[1m[7m%[27m[1m[0m                                                                                                                                       [0m[27m[24m[J[34m❯[39m [33mlogs[39m [K[?2004h[7mdocker --version[27m
-[7mgit --version[27m[K
-[7mexit[27m[K[A[A[3C[27md[27mo[27mc[27mk[27me[27mr[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[27mg[27mi[27mt[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[27me[27mx[27mi[27mt[?2004l
+**docker --version**
 Docker version 28.5.2, build ecc6942
+
+**git --version**
 git version 2.53.0
+
+**exit**

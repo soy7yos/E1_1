@@ -32,6 +32,8 @@
 - [x] 보안 점검 (민감정보 마스킹) 및 README 최종 정리
 
 ## 4. 검증 방법
+> 아래 로그는 명령/결과를 보기 쉽게 정리한 버전입니다. 터미널 녹화 원본은 [logs/raw/](logs/raw/)에 있습니다.
+
 | 항목 | 명령어 | 결과 위치 |
 |---|---|---|
 | 터미널 기본 조작 | `pwd`, `ls -al`, `mkdir`, `cp`, `mv`, `rm` | [step_1_terminal_permission_log.txt](logs/step_1_terminal_permission_log.txt) |

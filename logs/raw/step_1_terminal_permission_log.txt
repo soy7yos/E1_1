@@ -1,0 +1,40 @@
+Script started on Thu Jul 30 15:37:42 2026
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hㅔ  ppwd[?2004l
+/Users/sysy22042026/b_m1
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hlls[?2004l
+log_1단계.txt	README.md
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hlls -al[?2004l
+total 16
+drwxr-xr-x   5 sysy22042026  sysy22042026  160  7 30 15:37 .
+drwxr-x---+ 21 sysy22042026  sysy22042026  672  7 30 15:37 ..
+drwxr-xr-x  13 sysy22042026  sysy22042026  416  7 30 15:32 .git
+-rw-r--r--   1 sysy22042026  sysy22042026  257  7 30 15:38 log_1단계.txt
+-rw-r--r--   1 sysy22042026  sysy22042026  444  7 30 15:22 README.md
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hd ccd ~/b_m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hccd . .  ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 ~ % [K[?2004hmmixdir    m mmdjr  ir practice[?2004l
+zsh: command not found: mmdir
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 ~ % [K[?2004hmmkdir practice[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 ~ % [K[?2004hx ccd ~/b_m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hmmkdir practice[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 b_m1 % [K[?2004hccd practice[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004httous ch test.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hc eecho "hellos " > txt  est.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hccat test.txt[?2004l
+hello
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hccp test.txt copy.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hmmy copy.yx  txt renamed.txt[?2004l
+zsh: command not found: my
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hmy copy.txt renamed.txtmvy copy.txt renamed.txt[22D[P[21C [22D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hrrm renamd ed.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hlls -l test.txt[?2004l
+-rw-r--r--  1 sysy22042026  sysy22042026  6  7 30 15:44 test.txt
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004h cchmod 000 test.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hddcat  d  ccat test.txt[?2004l
+cat: test.txt: Permission denied
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hcchmod 644 test.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004hchmod 644 test.txt[18Dcat[6P[9C      [?2004l
+hello
+[1m[7m%[27m[1m[0m                                                                                                                                      [0m[27m[24m[Jsysy22042026@c6r2s5 practice % [K[?2004heexit[?2004l
+
+Script done on Thu Jul 30 15:54:52 2026
