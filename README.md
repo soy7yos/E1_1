@@ -36,18 +36,18 @@
 
 | 항목 | 명령어 | 결과 위치 |
 |---|---|---|
-| 터미널 기본 조작 | `pwd`, `ls -al`, `mkdir`, `cp`, `mv`, `rm` | [step_1_terminal_permission_log.txt](logs/step_1_terminal_permission_log.txt) |
-| 파일 권한 변경 | `chmod 000/644 test.txt` | [step_1_terminal_permission_log.txt](logs/step_1_terminal_permission_log.txt) |
-| 디렉토리 권한 변경 | `chmod 700/755 perm_test_dir` | [step_1_permission_supplement_log.txt](logs/step_1_permission_supplement_log.txt) |
-| zsh 인라인 주석 설정 | `setopt interactivecomments` | [step_1_zshrc_supplement_log.txt](logs/step_1_zshrc_supplement_log.txt) |
-| Docker 데몬 확인 | `docker info` | [step_2_docker_setup_log.txt](logs/step_2_docker_setup_log.txt) |
-| Docker 버전 확인 | `docker --version`, `git --version` | [step_2_docker_version_supplement_log.txt](logs/step_2_docker_version_supplement_log.txt) |
-| Docker 기본 운영 | `docker images/ps/logs/stats` | [step_3_docker_basic_ops_log.txt](logs/step_3_docker_basic_ops_log.txt) |
-| 커스텀 이미지 빌드/실행 | `docker build`, `docker run -p` | [step_4_docker_custom_image_log.txt](logs/step_4_docker_custom_image_log.txt) |
-| 포트 매핑 접속 | `curl http://localhost:8080` | [step_4_docker_custom_image_log.txt](logs/step_4_docker_custom_image_log.txt) |
-| 바인드 마운트 | `docker run -v $(pwd)/...:/data`, `docker exec` | [step_5_bind_mount_volume_log.txt](logs/step_5_bind_mount_volume_log.txt) |
-| 볼륨 영속성 | `docker volume create`, `docker rm -f` 전/후 비교 | [step_5_bind_mount_volume_log.txt](logs/step_5_bind_mount_volume_log.txt) |
-| Git 설정/연동 | `git config --list`, `git remote -v` | [step_6_git_github_config_log.txt](logs/step_6_git_github_config_log.txt) |
+| 터미널 기본 조작 | `pwd`, `ls -al`, `mkdir`, `cp`, `mv`, `rm` | [step_1_terminal_permission_log.md](logs/step_1_terminal_permission_log.md) |
+| 파일 권한 변경 | `chmod 000/644 test.md` | [step_1_terminal_permission_log.md](logs/step_1_terminal_permission_log.md) |
+| 디렉토리 권한 변경 | `chmod 700/755 perm_test_dir` | [step_1_permission_supplement_log.md](logs/step_1_permission_supplement_log.md) |
+| zsh 인라인 주석 설정 | `setopt interactivecomments` | [step_1_zshrc_supplement_log.md](logs/step_1_zshrc_supplement_log.md) |
+| Docker 데몬 확인 | `docker info` | [step_2_docker_setup_log.md](logs/step_2_docker_setup_log.md) |
+| Docker 버전 확인 | `docker --version`, `git --version` | [step_2_docker_version_supplement_log.md](logs/step_2_docker_version_supplement_log.md) |
+| Docker 기본 운영 | `docker images/ps/logs/stats` | [step_3_docker_basic_ops_log.md](logs/step_3_docker_basic_ops_log.md) |
+| 커스텀 이미지 빌드/실행 | `docker build`, `docker run -p` | [step_4_docker_custom_image_log.md](logs/step_4_docker_custom_image_log.md) |
+| 포트 매핑 접속 | `curl http://localhost:8080` | [step_4_docker_custom_image_log.md](logs/step_4_docker_custom_image_log.md) |
+| 바인드 마운트 | `docker run -v $(pwd)/...:/data`, `docker exec` | [step_5_bind_mount_volume_log.md](logs/step_5_bind_mount_volume_log.md) |
+| 볼륨 영속성 | `docker volume create`, `docker rm -f` 전/후 비교 | [step_5_bind_mount_volume_log.md](logs/step_5_bind_mount_volume_log.md) |
+| Git 설정/연동 | `git config --list`, `git remote -v` | [step_6_git_github_config_log.md](logs/step_6_git_github_config_log.md) |
 | 포트 매핑 브라우저 접속 화면 | 주소창(`localhost:8080`) + 응답 화면 캡처 | [port_mapping_curl.png](docs/screenshots/port_mapping_curl.png) |
 | VSCode GitHub 연동 화면 | 브랜치명/동기화 아이콘 캡처 | [vscode_github_sync.png](docs/screenshots/vscode_github_sync.png) |
 
@@ -176,14 +176,14 @@ COPY index.html /usr/share/nginx/html/index.html
 - 원인 가설: OrbStack 데몬이 완전히 기동되기 전에 명령 실행
 - 확인: `docker info`로 데몬 상태 재확인 → 정상 응답
 - 해결: 잠시 후 `docker build` 재실행 → 정상 빌드 성공
-- (출처: [step_4_docker_custom_image_log.txt](logs/step_4_docker_custom_image_log.txt))
+- (출처: [step_4_docker_custom_image_log.md](logs/step_4_docker_custom_image_log.md))
 
 ### 7-2. 디렉토리 권한 변경(chmod 700) 결과 캡처 실패
 - 문제: 여러 줄 명령을 한 번에 붙여넣는 과정에서 `# 주석` 뒤 괄호(`확인(700`)가 zsh 글롭 한정자로 오인되어 `ls -ld` 명령 파싱 실패, `zsh: unknown file attribute: 7` 에러 발생 → 700 상태 출력 미확보
 - 원인 가설: 인터랙티브 zsh는 기본적으로 `#` 인라인 주석을 지원하지 않아 붙여넣기 시 공백 소실과 맞물려 취약
 - 확인: 로그상 에러 위치와 700 상태 `ls -ld` 출력 부재 대조
 - 해결: 1차로 명령을 주석 없이 한 줄씩 재실행하여 700 상태(`drwx------`) 캡처 완료. 재발 방지를 위해 `~/.zshrc`에 `setopt interactivecomments` 추가 후 반영 확인
-- (출처: [step_1_permission_supplement_log.txt](logs/step_1_permission_supplement_log.txt), [step_1_zshrc_supplement_log.txt](logs/step_1_zshrc_supplement_log.txt))
+- (출처: [step_1_permission_supplement_log.md](logs/step_1_permission_supplement_log.md), [step_1_zshrc_supplement_log.md](logs/step_1_zshrc_supplement_log.md))
 
 ## 8. 재현 방법
 1. OrbStack(또는 Docker Desktop) 설치 및 실행
