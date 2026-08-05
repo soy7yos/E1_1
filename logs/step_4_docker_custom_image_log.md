@@ -1,7 +1,7 @@
 **mkdir app**  
 **cd app**  
   
-**echo "<h1>Hello Im soy</h1>" > index.html**  
+**echo "<h1>Hello Im soyyyyyyyy</h1>" > index.html**  
 **cat index.html**  
 <h1>Hello Im soyyyyyyyy</h1>  
   
